@@ -1,0 +1,7 @@
+package planetary;
+option go_package = "./planetary";
+message Game {
+    required string id = 1;
+    required string charname = 2;
+    required string seed = 3;
+}
